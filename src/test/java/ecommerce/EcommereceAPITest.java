@@ -64,7 +64,7 @@ RequestSpecification addProduct=given().spec(addProductBaseRequest)
 
 		.param("productDescription","It is a Smart Phone")
 
-		.param("productFor","men")
+		.param("productFor","women")
 
 		.multiPart("productImage",new File("C:\\Users\\Pushkar Mishra\\Pictures\\Screenshots\\Screenshot (12).png"));
  
